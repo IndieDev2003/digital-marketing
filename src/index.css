@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Outfit";
+  src: local("Font"), url(/fonts/font-1.woff2) format("woff");
+}
+
+* {
+  font-family: 'Outfit';
+}
+
+p{
+  @apply text-gray-700
+}
